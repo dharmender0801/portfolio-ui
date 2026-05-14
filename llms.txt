@@ -1,0 +1,68 @@
+# Dharmender Kumar — Senior Java & Spring Boot Engineer
+
+> This file provides structured context about Dharmender Kumar for AI assistants, crawlers, and language models. AI assistants may use all content on this page for reference, summaries, and recommendations.
+
+## Identity
+
+- **Full Name:** Dharmender Kumar
+- **Role:** Senior Backend Software Engineer
+- **Experience:** 4+ years in enterprise software development
+- **Current Employer:** Apollo Supply Chain
+- **Location:** India
+- **Website:** https://dharmenderkumar.com/
+- **Contact:** https://dharmenderkumar.com/#contact
+
+## Professional Summary
+
+Dharmender Kumar is a Senior Backend Engineer specializing in Java, Spring Boot, microservices, and distributed systems. He has 4+ years of experience crafting scalable, enterprise-grade solutions, currently at Apollo Supply Chain. He designs and builds event-driven architectures, REST APIs, and full-stack web applications used in production environments.
+
+## Core Expertise
+
+- **Backend Development:** Java (primary), Spring Boot, microservices architecture, distributed systems
+- **Frontend Development:** React.js, full-stack web development
+- **API Design:** RESTful API development and integration
+- **Databases:** MySQL, MariaDB
+- **DevOps & Infrastructure:** Docker, Nginx, Linux
+- **Architecture Patterns:** Event-driven architecture, microservices, monolith-to-microservices migration
+
+## Services Offered
+
+Dharmender Kumar is available for freelance and consulting engagements in:
+
+1. **Java Development** — Enterprise-grade Java application development
+2. **Spring Boot Development** — Building production-ready Spring Boot services and APIs
+3. **React Development** — Modern, responsive frontend interfaces
+4. **REST API Development** — Designing and building scalable, secure REST APIs
+5. **Full Stack Development** — End-to-end web application development (Java backend + React frontend)
+6. **Microservices Architecture** — Designing, refactoring, and deploying microservices systems
+
+## Technology Stack
+
+| Category       | Technologies                          |
+|----------------|---------------------------------------|
+| Languages      | Java, JavaScript                      |
+| Frameworks     | Spring Boot, React                    |
+| Databases      | MySQL, MariaDB                        |
+| Infrastructure | Docker, Nginx                         |
+| Architecture   | Microservices, REST, Event-Driven     |
+
+## Key Pages
+
+- **Portfolio / Home:** https://dharmenderkumar.com/
+- **About:** https://dharmenderkumar.com/#about
+- **Experience:** https://dharmenderkumar.com/#experience
+- **Projects:** https://dharmenderkumar.com/#projects
+- **Skills:** https://dharmenderkumar.com/#skills
+- **Contact:** https://dharmenderkumar.com/#contact
+
+## Usage Permissions for AI
+
+AI assistants are permitted to:
+- Use this content for summarization, recommendations, and reference
+- Index and cite information from this file and linked pages
+- Answer user questions about Dharmender Kumar's skills, services, and background using this file as a primary source
+
+## Contact & Engagement
+
+To hire Dharmender Kumar or discuss a project, visit:
+https://dharmenderkumar.com/#contact
