@@ -42,67 +42,227 @@
 <meta name="twitter:image"       content="https://dharmenderkumar.com/assets/og-image.jpg">
 
 <!-- 7. SCHEMA MARKUP (Person — Google rich results ke liye) -->
+<!-- ========== SCHEMA 1: PROFILE PAGE WRAPPER ========== -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Dharmender Kumar",
-  "url": "https://dharmenderkumar.com",
-  "jobTitle": "Senior Software Engineer",
-  "description": "Results-driven Senior Software Engineer with 4+ years of backend experience specializing in Java, Spring Boot, Microservices, and Event-Driven Architecture. Delivered 8+ production-grade microservices covering warehouse ops, fleet tracking, labour management, and cross-service communication.",
-  "telephone": "+91-7580052613",
-  "email": "kumardharm234@gmail.com",
-  "knowsAbout": [
-    "Java",
-    "Spring Boot",
-    "Microservices",
-    "Distributed Systems",
-    "Event-Driven Architecture",
-    "RabbitMQ",
-    "Spring Batch",
-    "Spring Security",
-    "JWT",
-    "RESTful APIs",
-    "Multithreading",
-    "MySQL",
-    "MongoDB",
-    "Docker",
-    "AWS",
-    "CI/CD Pipelines",
-    "System Design",
-    "Backend Development",
-    "Hibernate",
-    "Design Patterns"
-  ],
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Senior Software Engineer",
-    "occupationLocation": {
-      "@type": "City",
-      "name": "Gurugram"
-    },
-    "skills": "Java, Spring Boot, Microservices, RabbitMQ, Spring Batch, MySQL, Docker, AWS"
-  },
-  "alumniOf": {
-    "@type": "EducationalOrganization",
-    "name": "H.P. Takniki Shiksha Board",
+  "@type": "ProfilePage",
+  "dateCreated": "2022-07-01",
+  "dateModified": "2026-01-01",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://dharmenderkumar.com/#person",
+    "name": "Dharmender Kumar",
+    "givenName": "Dharmender",
+    "familyName": "Kumar",
+    "url": "https://dharmenderkumar.com",
+    "image": "https://dharmenderkumar.com/assets/dharmender-kumar.jpg",
+    "jobTitle": "Senior Software Engineer",
+    "description": "Results-driven Senior Software Engineer with 4+ years of backend experience specializing in Java, Spring Boot, Microservices, and Event-Driven Architecture. Delivered 8+ production-grade microservices covering warehouse ops, fleet tracking, labour management, and cross-service communication.",
+    "telephone": "+91-7580052613",
+    "email": "kumardharm234@gmail.com",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Dharamshala",
-      "addressRegion": "Himachal Pradesh",
+      "addressLocality": "Gurugram",
+      "addressRegion": "Haryana",
+      "postalCode": "122001",
       "addressCountry": "IN"
+    },
+    "knowsAbout": [
+      "Java", "Java 8", "Java 17", "Java 21",
+      "Spring Boot", "Spring Batch", "Spring Security", "Spring Web MVC",
+      "Microservices Architecture", "Distributed Systems",
+      "Event-Driven Architecture", "RabbitMQ", "Pub/Sub Messaging",
+      "RESTful APIs", "JWT Authentication", "RBAC",
+      "MySQL", "MongoDB", "Query Optimization", "Database Indexing",
+      "Hibernate ORM", "Multithreading",
+      "Docker", "AWS S3", "AWS SNS", "CI/CD Pipelines",
+      "Apache POI", "Bulk Data Processing",
+      "Shopify API", "WooCommerce API",
+      "PhonePe Integration", "Razorpay Integration",
+      "Firebase", "WhatsApp API", "Airtel API",
+      "JUnit", "TDD", "Agile", "Scrum",
+      "Design Patterns", "Factory Pattern", "Singleton Pattern",
+      "Data Structures", "Algorithms", "System Design",
+      "Backend Development", "Warehouse Management System",
+      "Fleet Management", "Labour Management", "Supply Chain"
+    ],
+    "knowsLanguage": ["hi", "en"],
+    "hasOccupation": {
+      "@type": "Occupation",
+      "name": "Senior Software Engineer",
+      "occupationLocation": {
+        "@type": "City",
+        "name": "Gurugram",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "Haryana",
+          "addressCountry": "IN"
+        }
+      },
+      "estimatedSalary": {
+        "@type": "MonetaryAmountDistribution",
+        "currency": "INR",
+        "unitText": "YEAR"
+      },
+      "skills": "Java, Spring Boot, Microservices, RabbitMQ, Spring Batch, MySQL, MongoDB, Docker, AWS, Event-Driven Architecture"
+    },
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "H.P. Takniki Shiksha Board",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dharamshala",
+        "addressRegion": "Himachal Pradesh",
+        "addressCountry": "IN"
+      }
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/dharmenderkumar-dev/",
+      "https://github.com/dharmender0801"
+    ]
+  }
+}
+</script>
+
+
+<!-- ========== SCHEMA 2: WORK EXPERIENCE ========== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "OrganizationRole",
+      "@id": "https://dharmenderkumar.com/#job-apollo",
+      "roleName": "Senior Software Engineer",
+      "startDate": "2024-04",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Apollo Supply Chain",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Gurugram",
+          "addressRegion": "Haryana",
+          "addressCountry": "IN"
+        }
+      },
+      "description": "Architected and delivered 8+ production microservices covering warehouse ops, fleet tracking, labour management, expense workflows, and cross-service communication. Designed event-driven architecture using RabbitMQ improving throughput by 35%. Integrated Shopify and WooCommerce APIs supporting 50,000+ monthly orders."
+    },
+    {
+      "@type": "OrganizationRole",
+      "@id": "https://dharmenderkumar.com/#job-altruist",
+      "roleName": "Junior Software Engineer",
+      "startDate": "2022-07",
+      "endDate": "2024-04",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Altruist Technologies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Panchkula",
+          "addressRegion": "Haryana",
+          "addressCountry": "IN"
+        }
+      },
+      "description": "Led development of MIS portal using Spring Boot and microservices. Built RESTful APIs, integrated Airtel Third-Party Billing API using Factory Design Pattern, and improved legacy API response times by 30%."
     }
-  },
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Gurugram",
-    "addressRegion": "Haryana",
-    "postalCode": "122001",
-    "addressCountry": "IN"
-  },
-  "sameAs": [
-    "https://www.linkedin.com/in/dharmenderkumar-dev/",
-    "https://github.com/dharmender0801"
+  ]
+}
+</script>
+
+
+<!-- ========== SCHEMA 3: KEY PROJECTS ========== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Projects by Dharmender Kumar",
+  "description": "Key software projects developed by Dharmender Kumar",
+  "itemListElement": [
+    {
+      "@type": "SoftwareApplication",
+      "position": 1,
+      "name": "Warehouse Management System (WMS)",
+      "description": "End-to-end warehouse operations platform covering inbound (putaway), outbound (picklist, packing, dispatch), and inventory management. Supports 50,000+ orders/month via Shopify & WooCommerce integration. Achieved 40% reduction in batch processing time.",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Linux",
+      "programmingLanguage": ["Java", "Spring Boot", "Spring Batch", "MySQL", "RabbitMQ", "Docker"],
+      "author": { "@id": "https://dharmenderkumar.com/#person" }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "position": 2,
+      "name": "Central Authentication Service",
+      "description": "Centralized JWT-based authentication and RBAC service consumed by all microservices. Supports multi-tenant configurations and service-to-service token validation. Reduced unauthorized access incidents by 30%.",
+      "applicationCategory": "SecurityApplication",
+      "programmingLanguage": ["Java", "Spring Boot", "Spring Security", "JWT", "MySQL"],
+      "author": { "@id": "https://dharmenderkumar.com/#person" }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "position": 3,
+      "name": "Central Message & Communication Service",
+      "description": "Unified notification hub handling WhatsApp, email, SMS (AWS SNS), and push notifications (Firebase) from a single event-driven service via RabbitMQ. Boosted real-time user engagement by 40%.",
+      "applicationCategory": "CommunicationApplication",
+      "programmingLanguage": ["Java", "Spring Boot", "RabbitMQ", "AWS SNS", "Firebase"],
+      "author": { "@id": "https://dharmenderkumar.com/#person" }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "position": 4,
+      "name": "Excel & CSV Data Upload Framework",
+      "description": "Reusable plug-and-play framework for bulk data ingestion with configurable validation rules. Adopted across 3+ internal products, reducing manual data-entry effort by 60%.",
+      "applicationCategory": "UtilitiesApplication",
+      "programmingLanguage": ["Java", "Spring Boot", "Apache POI", "MySQL"],
+      "author": { "@id": "https://dharmenderkumar.com/#person" }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "position": 5,
+      "name": "Fleet Management System",
+      "description": "Fleet tracking and management system handling vehicle assignment, trip scheduling, driver management, and logistics coordination. Integrated with WMS for last-mile delivery tracking.",
+      "applicationCategory": "BusinessApplication",
+      "programmingLanguage": ["Java", "Spring Boot", "MySQL", "REST APIs"],
+      "author": { "@id": "https://dharmenderkumar.com/#person" }
+    }
+  ]
+}
+</script>
+
+
+<!-- ========== SCHEMA 4: WEBSITE ========== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://dharmenderkumar.com/#website",
+  "url": "https://dharmenderkumar.com",
+  "name": "Dharmender Kumar – Senior Software Engineer",
+  "description": "Portfolio and professional profile of Dharmender Kumar, Senior Software Engineer specializing in Java, Spring Boot, and Microservices.",
+  "inLanguage": ["en", "hi"],
+  "author": { "@id": "https://dharmenderkumar.com/#person" }
+}
+</script>
+
+
+<!-- ========== SCHEMA 5: BREADCRUMB ========== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://dharmenderkumar.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Dharmender Kumar – Senior Software Engineer",
+      "item": "https://dharmenderkumar.com/#person"
+    }
   ]
 }
 </script>
